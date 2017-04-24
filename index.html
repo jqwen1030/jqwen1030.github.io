@@ -1,8 +1,49 @@
 <html>
   <head>
-    <title>Hello!</title>
+    <title>Hello</title>
+    
+  <style>
+    body{
+      text-align: center;
+      background-color: gray;
+      color: black;
+    }
+    
+    
+    </style>
+  
+    <script>
+function changePic(){
+  document.getElementById("test").src="http://orig10.deviantart.net/b656/f/2008/233/0/8/cucumber_vs__pickle_by_7r6.jpg";
+}
+  
+    </script>
   </head>
-  <body>
-    Hello World!
+  <body style="text-align:center;background-color:gray;color:black;">
+    <div style="background-color:white;color:black;
+      margin:25px;padding:25px;
+      border-radius:15px">
+       </body>
+      
+    <p id="nav">
+      <a href="index.html">Home</a>
+     <a href="aboutme.html">About Me</a>
+      <a href="projects.html">My Projects</a>
+    </p>
+      <h1>
+      Hello World! 
+      </h1>
+      
+      <p>
+        <a href="http://leekspin.com/" />
+          Click here
+      </a>  
+      </p>
+      <img id="test" style="height:200px;" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg" />
+              
+       <p>
+         <input type="button" value="Click me" onclick="changePic();"/>
+  </p>
+    </div>
   </body>
 </html>
